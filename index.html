@@ -4,24 +4,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- STYLE  -->
   <link rel="stylesheet" href="style.css">
+  <!-- ICON -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <!-- ANIMATE CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <title>Linktree</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container animate__animated animate__fadeIn">
     <!-- profile picture -->
     <div class="profile">
-      <img src="img/nopoto.gif" alt="Profile Image">
-      <p class="name">M. Fahrur Rizal</p>
+      <div class="profile-image animate__animated animate__backInDown animate__delay-1s">
+        <img src="img/nopoto.gif" alt="Profile Image">
+      </div>
+      <div class="name-wrapper animate__animated animate__backInDown">
+        <p class="name">M. Fahrur Rizal</p>
+      </div>
     </div>
 
     <!-- linktree button -->
     <div class="link">
-      <div class="link-item">Tes</div>
+      <a href="https://www.instagram.com/fahrur_rzl/" target="_blank" class="animate__animated animate__bounceInLeft">
+        <div class="link-item">INSTAGRAM</div>
+      </a>
+
+      <a href="https://www.facebook.com/fahrurrzl/" target="_blank" class="animate__animated animate__bounceInRight">
+        <div class="link-item">FACEBOOK</div>
+      </a>
+
+      <a href="https://www.tiktok.com/@joule0507/" target="_blank" class="animate__animated animate__bounceInLeft">
+        <div class="link-item">TIKTOK</div>
+      </a>
+
+      <a href="https://www.youtube.com/channel/UCG8nEkjON3IitwXoAV6ok2g" target="_blank" class="animate__animated animate__bounceInRight">
+        <div class="link-item">YOUTUBE</div>
+      </a>
     </div>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="animate__animated animate__fadeInUp animate__delay-1s">
+      <p>Make with <i class="bi bi-heart-fill"></i></p>
+    </footer>
   </div>
 </body>
 </html>
